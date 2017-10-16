@@ -20,13 +20,13 @@ public class Task1 {
 		if (a == b) {
 			System.out.print("Cкоро Новый год!");
 		} else {
-				System.out.print("Введите c: ");
-				if (sc.hasNextFloat()) {
-					c = sc.nextFloat();
-				}
-				first = a + b + c;
-				second = Math.pow(a,2)+Math.pow(b,2);
-				System.out.print(first+"\n"+second+"\n"+"Моя любимая футбольная команда");
+			System.out.print("Введите c: ");
+			if (sc.hasNextFloat()) {
+				c = sc.nextFloat();
 			}
+			first = a + b + c;
+			second = Math.pow(a, 2) + Math.pow(b, 2);
+			System.out.print(first + "\n" + second + "\n" + "Моя любимая футбольная команда");
 		}
 	}
+}
