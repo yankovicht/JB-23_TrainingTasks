@@ -12,8 +12,7 @@ public class Task2 {
 		if (sc.hasNextInt()) {
 			n = sc.nextInt();
 		}
-		int[] array;
-		array = new int[n];
+		int[] array = new int[n];
 		for (int i = 0; i < n; i++) {
 			System.out.print("Введите целое число: ");
 			if (sc.hasNextInt()) {
